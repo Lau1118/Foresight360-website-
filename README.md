@@ -1,74 +1,62 @@
-# Foresight360
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Foresight 360 | Communications</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foresight 360</title>
     <style>
-        * {
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Cambria, Georgia, serif;
-            line-height: 1.6;
-            color: #e0e0e0;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: black;
-            padding: 20px;
         }
         .container {
-            max-width: 600px;
-            background-color: rgba(0,0,0,0.8);
-            padding: 40px;
-            border-radius: 12px;
-            border: 2px solid #20B2AA;
-            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #00CED1;
+            border-radius: 10px;
         }
-        .logo {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #20B2AA;
-            margin-bottom: 15px;
-            letter-spacing: -1px;
+        h1 {
+            color: #00CED1;
+            font-size: 3rem;
+            margin-bottom: 10px;
         }
-        .tagline {
-            font-size: 1.2em;
-            color: #a0a0a0;
-            margin-bottom: 25px;
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+            color: #ccc;
         }
         .contact {
-            background-color: rgba(32,178,170,0.1);
-            padding: 15px;
-            border-radius: 8px;
-            border: 1px solid #20B2AA;
+            margin-top: 50px;
+            padding: 20px;
+            border: 1px solid #00CED1;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
         }
-        .contact a {
-            color: #20B2AA;
+        a {
+            color: #00CED1;
             text-decoration: none;
-            transition: color 0.3s ease;
         }
-        .contact a:hover {
-            color: #40E0D0;
+        a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="logo">
-            Foresight 360
-        </div>
-        <div class="tagline">
-            Strategic Communications and Media Insights
-        </div>
+        <h1>Foresight 360</h1>
+        <div class="subtitle">Strategic Communications and Media Insights</div>
+        
         <div class="contact">
-            <p>For media inquiries, contact: <a href="mailto:laura@foresight360.org">laura@foresight360.org</a></p>
+            For media inquiries, contact: <a href="mailto:laura@foresight360.org">laura@foresight360.org</a>
         </div>
     </div>
 </body>
