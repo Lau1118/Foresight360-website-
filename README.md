@@ -6,7 +6,7 @@
     <title>Foresight 360</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
             background-color: #000;
             color: #fff;
             text-align: center;
